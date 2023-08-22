@@ -1,0 +1,178 @@
+header{
+    margin: 10px;
+    color: black;
+    background-color:whitesmoke;
+    border-radius: 25px;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: rgb(223, 26, 26);
+    height: 90%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 3s;
+}
+header:hover span{
+    width: 100%;
+}
+header:hover{
+    border: none;
+}
+body{
+    background-image: url(d.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    
+}
+.navbar{
+    background: black;
+}
+.navbar ul li{
+    float: right;
+    list-style: none;
+    margin: 5PX 1PX;
+    background: black;
+    height: 50px;
+    width: 150PX;
+    position: relative;
+    line-height: 50PX;
+    text-align: center;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #009600;;
+    text-transform: uppercase;
+}
+.navbar ul li ::after{
+    content: '';
+    margin-bottom: 55px;
+    height: 3px;
+    width: 0;
+    background:black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+}
+.navbar ul li:hover ::after{
+    width: 100%;
+}
+.navbar ul :hover{
+    background-color: white;
+    color: black;
+}
+.menubar ul li{
+    list-style-type: none; 
+    float: left;
+    background: wheat;
+    margin: 5PX 1PX;
+    height: 50px;;
+    width: 250PX;
+    position: relative;
+    line-height: 50PX;
+    text-align: center;
+    border-radius: 15px;
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menubar ul :hover{
+    background-color: white;
+}
+.menubar ul li ul li{
+    list-style-type: none; 
+    background:wheat;
+    margin:0px;
+    height: 50px;;
+    width: 200PX;
+    line-height: 50PX;
+    text-align: center;
+    border-radius: 0px;
+    margin-left: -15px;
+    display: none;
+}
+.menubar ul :hover ul li{
+    display: block;
+}
+.menubar ul li ul li UL {
+    list-style-type: none;
+    top: 0%;
+    background:wheat;
+    height: 50px;;
+    width: 500PX;
+    line-height: 50PX;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 200px;
+    display: none;
+}
+.menubar ul LI  UL :hover LI{
+    display: block;
+}
+
+
+
+.menubar1 ul li{
+    list-style-type: none; 
+    float: right;
+    background: rgb(235, 104, 16);
+    margin: 50PX 20PX;
+    height: 50px;;
+    width: 250PX;
+    position: relative;
+    line-height: 50PX;
+    text-align: center;
+    border-radius: 15px;
+}
+.menubar1 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menubar1 ul :hover{
+    background-color: white;
+}
+.menubar1 ul li ul li{
+    list-style-type: none; 
+    background:rgb(221, 146, 5);
+    margin:0px;
+    height: 50px;;
+    width: 200PX;
+    line-height: 50PX;
+    text-align: center;
+    border-radius: 0px;
+    margin-right: 10px;
+    display: none;
+}
+.menubar1 ul :hover ul li{
+    display: block;
+}
+.me{
+   margin-top: 100px;
+   color:rgb(249, 11, 11);
+}
+.sum ul li{
+    list-style-type: none;
+    margin-left: 50px;
+    background-color: aquamarine;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color:black ;
+    
+    
+}
